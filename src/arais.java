@@ -1,18 +1,18 @@
 import java.util.Random;
 
-public class App {
+public class arais {
     public static void main(String[] args) throws Exception {
         System.out.println("Hola bienvenido a un bucle del 1 al 10");
     
    
     
-    String nombre[] = {"Piedra" , "Papel" ,"Tijeras"};
+    String nombre[] = {"Papel" ,"Tijeras"};
   
     Random rm = new Random();
 
-    int DatoRandom = rm.nextInt(3);
+    int numRandom = rm.nextInt(nombre.length);
     
-    System.out.println(nombre[DatoRandom]);
+    System.out.println(nombre[numRandom]);
         
      
     
